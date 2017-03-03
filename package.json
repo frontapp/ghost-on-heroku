@@ -8,7 +8,7 @@
   },
   "bugs": "https://github.com/TryGhost/Ghost/issues",
   "private": true,
-  "version": "0.11.5",
+  "version": "0.11.6",
   "dependencies": {
     "casper": "TryGhost/Casper#1.3.4",
     "ghost": "0.11.5",
