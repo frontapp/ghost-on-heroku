@@ -53,7 +53,13 @@ config = {
     storage: storage,
     database: {
       client: 'mysql',
-      connection: process.env.DATABASE_URL,
+      connection: {
+        host:     process.env.MYSQL_HOST,
+        user:     process.env.MYSQL_USER,
+        password: process.env.MYSQL_PWD,
+        database: process.env.MYSQL_DATABASE,
+        charset:  'utf8'
+      },
       debug: false
     },
     server: {
