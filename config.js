@@ -52,7 +52,7 @@ config = {
     fileStorage: fileStorage,
     storage: storage,
     database: {
-      client: 'postgres',
+      client: 'mysql',
       connection: process.env.DATABASE_URL,
       debug: false
     },
