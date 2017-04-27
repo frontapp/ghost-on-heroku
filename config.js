@@ -64,7 +64,7 @@ config = {
     },
     server: {
       host: '0.0.0.0',
-      port: process.env.PORT
+      port: 3000
     },
     paths: {
       contentPath: path.join(__dirname, '/content/')
