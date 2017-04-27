@@ -11,7 +11,7 @@
   "version": "0.11.6",
   "dependencies": {
     "casper": "TryGhost/Casper#1.3.4",
-    "front-blog": "frontapp/front-blog#4643524521980a1d4dd95485cc350159b33fd8b3",
+    "front-blog": "frontapp/front-blog#604286ebf7f1d783469f5f183cad8e3db275cb84",
     "ghost": "0.11.8",
     "ghost-s3-storage-adapter": "3.0.4",
     "ncp": "2.0.0"
